@@ -113,3 +113,14 @@ conda activate dw3d
 cd DeepWonder3D_pytorch
 python main_pipeline_3d.py
 ```
+
+## Documentation
+
+See the [user guide](docs/index.md) for installation, input/output contracts, usage, validation scope, and source references. Build it with Python 3.12:
+
+```bash
+python -m pip install -r docs/requirements.txt
+python -m sphinx -b html -n -W --keep-going docs docs/_build/html
+```
+
+The documentation build is independent of the scientific runtime. Read the Docs hosting and contributor instructions are in [the maintenance guide](docs/contributing.md).

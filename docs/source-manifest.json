@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "repository": "Neurallabware/DeepWonder3D",
+  "source_commit": "979b37bfd8045340d06d7bb9534d4a9ecc6c7404",
+  "reviewed_date": "2026-10-20",
+  "source_files": [
+    "README.md",
+    "DeepWonder3D_pytorch/README.md",
+    "DeepWonder3D_pytorch/main_pipeline_3d.py",
+    "DeepWonder3D_pytorch/get_PSFfit_matrix.py"
+  ],
+  "verification_scope": "Documentation and inspected source interfaces; scientific execution not performed."
+}
